@@ -5,7 +5,7 @@
     "env": {
          "PROTOCOL": {
             "description": "Xray五合一协议共存：vless-ws、vmess-ws、trojan-ws、shadowsocks-ws、socks5-ws",
-            "value": "path路径:（斜杠/）+（自定义UUID）+（减号-）+（对应协议开头两小写字母：vl或vm或tr或sh或so）",
+            "value": "/e1d05d3b-3793-44e2-b8dd-44b12f3ab9c7-vl",
              "required": true
         },
         "SSencryption": {
