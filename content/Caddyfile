@@ -7,8 +7,3 @@
 handle @websockets-vl {
         reverse_proxy * localhost:61079
 }
-@websockets-vm {
-        header Connection *Upgrade*
-        header Upgrade websocket
-        path /{$UUID}-vm*
-}
